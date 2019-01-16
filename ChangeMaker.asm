@@ -12,7 +12,7 @@ mflo $t1
 div $t3, $t2 #t2 represents to number of nickles
 mfhi $t3
 mflo $t2
-#t0 represents the number of pennies
+#t3 represents the number of pennies
 add $a0, $zero, $t0
 li $v0, 1
 syscall 

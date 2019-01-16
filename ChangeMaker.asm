@@ -39,7 +39,6 @@ la $a0, String4
 syscall
 
 .data
-D: .float 26.0
 
 String1: .asciiz " quarters, "
 String2: .asciiz " dimes, "
